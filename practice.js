@@ -21,7 +21,7 @@ var me = {
   age: 34
 };
 
-///////////////////////////////////////////////alert(me.name)
+alert(me.name)
 
 ////////// PROBLEM 2 //////////
 
@@ -73,7 +73,7 @@ favoriteThings.book = "Harry Potter"
 
 var backPack = {}
 var item= "firstPocket"
-backPack["item"] = "chapstick"
+backPack[item] = "chapstick"
 
 
 /*
@@ -82,7 +82,7 @@ backPack["item"] = "chapstick"
 
 //Code here
 
-//////////////////////////alert(backPack)
+alert(backPack)
 
 /*
 You probably noticed that it just alerted [object Object].
